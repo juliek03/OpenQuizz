@@ -13,6 +13,10 @@
 		A24CD052249CBA8C006C99FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A24CD050249CBA8C006C99FC /* Main.storyboard */; };
 		A24CD054249CBA8E006C99FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A24CD053249CBA8E006C99FC /* Assets.xcassets */; };
 		A24CD057249CBA8E006C99FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A24CD055249CBA8E006C99FC /* LaunchScreen.storyboard */; };
+		A24CD05F249CBD89006C99FC /* Balham.otf in Resources */ = {isa = PBXBuildFile; fileRef = A24CD05E249CBD89006C99FC /* Balham.otf */; };
+		A24CD064249CBE7B006C99FC /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24CD063249CBE7B006C99FC /* Question.swift */; };
+		A24CD066249CBEC9006C99FC /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24CD065249CBEC9006C99FC /* Game.swift */; };
+		A24CD068249CBF83006C99FC /* QuestionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24CD067249CBF83006C99FC /* QuestionManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +28,10 @@
 		A24CD053249CBA8E006C99FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A24CD056249CBA8E006C99FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A24CD058249CBA8E006C99FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A24CD05E249CBD89006C99FC /* Balham.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Balham.otf; sourceTree = "<group>"; };
+		A24CD063249CBE7B006C99FC /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
+		A24CD065249CBEC9006C99FC /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
+		A24CD067249CBF83006C99FC /* QuestionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +64,43 @@
 		A24CD049249CBA8C006C99FC /* OpenQuizz */ = {
 			isa = PBXGroup;
 			children = (
+				A24CD060249CBDDD006C99FC /* Model */,
+				A24CD061249CBDE5006C99FC /* View */,
+				A24CD062249CBDEB006C99FC /* Controller */,
 				A24CD04A249CBA8C006C99FC /* AppDelegate.swift */,
 				A24CD04C249CBA8C006C99FC /* SceneDelegate.swift */,
-				A24CD04E249CBA8C006C99FC /* ViewController.swift */,
-				A24CD050249CBA8C006C99FC /* Main.storyboard */,
+				A24CD05E249CBD89006C99FC /* Balham.otf */,
 				A24CD053249CBA8E006C99FC /* Assets.xcassets */,
 				A24CD055249CBA8E006C99FC /* LaunchScreen.storyboard */,
 				A24CD058249CBA8E006C99FC /* Info.plist */,
 			);
 			path = OpenQuizz;
+			sourceTree = "<group>";
+		};
+		A24CD060249CBDDD006C99FC /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				A24CD063249CBE7B006C99FC /* Question.swift */,
+				A24CD065249CBEC9006C99FC /* Game.swift */,
+				A24CD067249CBF83006C99FC /* QuestionManager.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		A24CD061249CBDE5006C99FC /* View */ = {
+			isa = PBXGroup;
+			children = (
+				A24CD050249CBA8C006C99FC /* Main.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		A24CD062249CBDEB006C99FC /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				A24CD04E249CBA8C006C99FC /* ViewController.swift */,
+			);
+			path = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +163,7 @@
 			files = (
 				A24CD057249CBA8E006C99FC /* LaunchScreen.storyboard in Resources */,
 				A24CD054249CBA8E006C99FC /* Assets.xcassets in Resources */,
+				A24CD05F249CBD89006C99FC /* Balham.otf in Resources */,
 				A24CD052249CBA8C006C99FC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,8 +176,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				A24CD04F249CBA8C006C99FC /* ViewController.swift in Sources */,
+				A24CD066249CBEC9006C99FC /* Game.swift in Sources */,
+				A24CD064249CBE7B006C99FC /* Question.swift in Sources */,
 				A24CD04B249CBA8C006C99FC /* AppDelegate.swift in Sources */,
 				A24CD04D249CBA8C006C99FC /* SceneDelegate.swift in Sources */,
+				A24CD068249CBF83006C99FC /* QuestionManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
