@@ -53,7 +53,7 @@ class QuestionManager {
             let answer = parsedData["correct_answer"] as? String {
             return Question(title: String(htmlEncodedString: title)!, isCorrect: (answer == "True"))
         }
-        return Question()
+        return Question(title: "", isCorrect: false)
     }
 }
 

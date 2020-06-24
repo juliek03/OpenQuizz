@@ -11,4 +11,9 @@ import Foundation
 class Question {
     var title = ""
     var isCorrect = false
+    
+    init(title: String, isCorrect: Bool) {
+        self.title = title
+        self.isCorrect = isCorrect
+    }
 }
