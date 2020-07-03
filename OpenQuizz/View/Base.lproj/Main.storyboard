@@ -44,7 +44,7 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aTD-oO-Up4">
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="aTD-oO-Up4" customClass="QuestionView" customModule="OpenQuizz" customModuleProvider="target">
                                 <rect key="frame" x="65" y="20" width="245" height="245"/>
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="Icon Correct" translatesAutoresizingMaskIntoConstraints="NO" id="uDI-6y-Pf6">
@@ -67,6 +67,10 @@
                                     <constraint firstItem="zn2-BW-WRh" firstAttribute="trailing" secondItem="aTD-oO-Up4" secondAttribute="trailingMargin" id="goa-MT-ii3"/>
                                     <constraint firstItem="zn2-BW-WRh" firstAttribute="top" secondItem="aTD-oO-Up4" secondAttribute="topMargin" id="wEI-E3-tuG"/>
                                 </constraints>
+                                <connections>
+                                    <outlet property="icon" destination="uDI-6y-Pf6" id="maB-CT-FxX"/>
+                                    <outlet property="label" destination="zn2-BW-WRh" id="BkH-Bt-rSA"/>
+                                </connections>
                             </view>
                         </subviews>
                         <color key="backgroundColor" red="0.34241300819999998" green="0.41808691619999999" blue="0.50959968570000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
