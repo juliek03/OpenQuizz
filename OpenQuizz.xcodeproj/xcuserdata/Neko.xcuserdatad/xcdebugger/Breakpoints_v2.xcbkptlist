@@ -3,4 +3,84 @@
    uuid = "104F4A9F-1F9F-4587-8B7B-444B17D8E3C8"
    type = "1"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "72F56621-F4A7-4E37-B30E-FF2BAB487182"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "OpenQuizz/AppDelegate.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "12"
+            endingLineNumber = "12"
+            landmarkName = "AppDelegate"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  uuid = "72F56621-F4A7-4E37-B30E-FF2BAB487182 - 303ee6c71cd1c62b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OpenQuizz.AppDelegate.__deallocating_deinit"
+                  moduleName = "OpenQuizz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Neko/Desktop/iOSDev/OpenQuizz/OpenQuizz/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "72F56621-F4A7-4E37-B30E-FF2BAB487182 - c486ee9f6dbabc2f"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OpenQuizz.AppDelegate.__allocating_init() -&gt; OpenQuizz.AppDelegate"
+                  moduleName = "OpenQuizz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Neko/Desktop/iOSDev/OpenQuizz/OpenQuizz/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "4">
+               </Location>
+               <Location
+                  uuid = "72F56621-F4A7-4E37-B30E-FF2BAB487182 - 7563a098667bbd83"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "OpenQuizz.AppDelegate.init() -&gt; OpenQuizz.AppDelegate"
+                  moduleName = "OpenQuizz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Neko/Desktop/iOSDev/OpenQuizz/OpenQuizz/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "93">
+               </Location>
+               <Location
+                  uuid = "72F56621-F4A7-4E37-B30E-FF2BAB487182 - 6f56e2d7daa89eb"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "main"
+                  moduleName = "OpenQuizz"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/Neko/Desktop/iOSDev/OpenQuizz/OpenQuizz/AppDelegate.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "12"
+                  endingLineNumber = "12"
+                  offsetFromSymbolStart = "15">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

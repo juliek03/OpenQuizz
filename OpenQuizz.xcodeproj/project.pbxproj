@@ -18,6 +18,7 @@
 		A24CD064249CBE7B006C99FC /* Question.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24CD063249CBE7B006C99FC /* Question.swift */; };
 		A24CD066249CBEC9006C99FC /* Game.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24CD065249CBEC9006C99FC /* Game.swift */; };
 		A24CD068249CBF83006C99FC /* QuestionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = A24CD067249CBF83006C99FC /* QuestionManager.swift */; };
+		A261E55C24CC792D008CAB5B /* moon_get-Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = A261E55B24CC792D008CAB5B /* moon_get-Heavy.otf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +35,7 @@
 		A24CD063249CBE7B006C99FC /* Question.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Question.swift; sourceTree = "<group>"; };
 		A24CD065249CBEC9006C99FC /* Game.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Game.swift; sourceTree = "<group>"; };
 		A24CD067249CBF83006C99FC /* QuestionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionManager.swift; sourceTree = "<group>"; };
+		A261E55B24CC792D008CAB5B /* moon_get-Heavy.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "moon_get-Heavy.otf"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +74,7 @@
 				A24CD04A249CBA8C006C99FC /* AppDelegate.swift */,
 				A24CD04C249CBA8C006C99FC /* SceneDelegate.swift */,
 				A24CD05E249CBD89006C99FC /* Balham.otf */,
+				A261E55B24CC792D008CAB5B /* moon_get-Heavy.otf */,
 				A24CD053249CBA8E006C99FC /* Assets.xcassets */,
 				A24CD055249CBA8E006C99FC /* LaunchScreen.storyboard */,
 				A24CD058249CBA8E006C99FC /* Info.plist */,
@@ -168,6 +171,7 @@
 				A24CD054249CBA8E006C99FC /* Assets.xcassets in Resources */,
 				A24CD05F249CBD89006C99FC /* Balham.otf in Resources */,
 				A24CD052249CBA8C006C99FC /* Main.storyboard in Resources */,
+				A261E55C24CC792D008CAB5B /* moon_get-Heavy.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

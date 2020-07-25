@@ -46,7 +46,7 @@ class ViewController: UIViewController {
         questionView.title = "Loading..."
         questionView.style = .standard
         
-        scoreLabel.text = "0 / 10"
+        scoreLabel.text = "Your score: 0 / 10"
         
         game.refresh()
     }
@@ -94,7 +94,7 @@ class ViewController: UIViewController {
             break
         }
         
-        scoreLabel.text = "\(game.score) / 10"
+        scoreLabel.text = "Your score: \(game.score) / 10"
         
         questionView.transform = .identity
         questionView.style = .standard
@@ -103,8 +103,43 @@ class ViewController: UIViewController {
         case .ongoing:
             questionView.title = game.currentQuestion.title
         case .over:
-            questionView.title = "Game Over"
+            questionView.title = "End game! Start a new game ?"
         }
+        
+        let screenWidth = UIScreen.main.bounds.width
+        
+        var translationTransform: CGAffineTransform
+        if questionView.style == .correct {
+            translationTransform = CGAffineTransform(translationX: screenWidth, y: 0)
+        } else {
+            translationTransform = CGAffineTransform(translationX: -screenWidth, y: 0)
+        }
+        
+        UIView.animate(withDuration: 0.3, animations: {
+            self.questionView.transform = translationTransform
+        }, completion: { (success) in
+            if success {
+                self.showQuestionView()
+            }
+        })
+    }
+    
+    private func showQuestionView() {
+        questionView.transform = .identity
+        questionView.transform = CGAffineTransform(scaleX: 0.01, y: 0.01)
+
+        questionView.style = .standard
+
+        switch game.state {
+        case .ongoing:
+            questionView.title = game.currentQuestion.title
+        case .over:
+            questionView.title = "End game! Start a new game ?"
+        }
+
+        UIView.animate(withDuration: 0.4, delay: 0.0, usingSpringWithDamping: 0.5, initialSpringVelocity: 0.5, options: [], animations: {
+            self.questionView.transform = .identity
+        }, completion:nil)
     }
 }
 

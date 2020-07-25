@@ -24,7 +24,7 @@ class Game {
         return questions[currentIndex]
     }
 
-///Quand l'utilisateur appuie sur le bouton New Game
+///When the user presses the New Game button
     func refresh() {
         score = 0
         currentIndex = 0
@@ -40,7 +40,7 @@ class Game {
         }
     }
     
-///Quand l'utilisateur répond à une question
+///When the user answers a question
     func answerCurrentQuestion(with answer: Bool) {
         if (currentQuestion.isCorrect && answer) || (!currentQuestion.isCorrect && !answer) {
             score += 1
@@ -48,7 +48,7 @@ class Game {
         goToNextQuestion()
     }
 
-///Pour passer à la question suivante
+///To move on to the next question
     private func goToNextQuestion() {
         if currentIndex < questions.count - 1 {
             currentIndex += 1
@@ -57,7 +57,7 @@ class Game {
         }
     }
 
-///Affiche quand la partie est fini
+///Shows when the game is over
     private func finishGame() {
         state = .over
     }
